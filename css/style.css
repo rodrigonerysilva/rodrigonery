@@ -1,0 +1,98 @@
+:root{
+	--dark-blue: #002c40;
+	--red: #ef2345;
+	--space-green: #38ab9e;
+	--white: #FFFFFF;
+	--light-grey: #f1f1f1;
+	--dark-grey: #bdc3c7;
+}
+
+::selection {
+  background: var(--space-green); /* WebKit/Blink Browsers */
+  color: var(--white);
+}
+::-moz-selection {
+  background: var(--space-green); /* Gecko Browsers */
+  color: var(--white);
+}
+
+h1 {
+	font-family: "ailerons", sans-serif;
+	color: var(--dark-blue);
+	font-size: 4.4em;
+	letter-spacing: -0.2em;
+}
+
+h2 {
+	font-family: "ailerons", sans-serif;
+	font-size: 2.6em;
+	letter-spacing: -0.2em;
+	color: var(--red);
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-family: 'Dosis', sans-serif;
+	color: var(--dark-blue);
+	font-size: 1.3em;
+	text-transform: uppercase;
+	letter-spacing: 0.8em;
+}
+
+h4 {
+	font-family: 'Dosis', sans-serif;
+	color: var(--dark-blue);
+	font-weight: 600;
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+	line-height: 1.4em;
+}
+
+p {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1em;
+	color: var(--dark-blue);
+	line-height: 1.6em;
+	text-align: justify;
+	letter-spacing: 0.04em;
+}
+
+.bg-header {
+	position: absolute;
+	background-color: #1e2142;
+	height: 213px;
+	width: 100%;
+	z-index: -1;
+}
+
+header {
+	background-image: url(../img/topo_espacial.jpg);
+	height: 380px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+@media screen and (min-width: 992px){
+	.info-header {
+		height: 213px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.info-header h4 {
+		color: var(--white)
+	}
+}
+
+.avatar-nery {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (min-width: 992px){
+.avatar-nery {
+	margin-top: -11em;
+	}
+}
+

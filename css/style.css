@@ -19,7 +19,7 @@
 h1 {
 	font-family: "ailerons", sans-serif;
 	color: var(--dark-blue);
-	font-size: 4.4em;
+	font-size: 3.8em;
 	letter-spacing: -0.2em;
 }
 
@@ -36,7 +36,7 @@ h3 {
 	color: var(--dark-blue);
 	font-size: 1.3em;
 	text-transform: uppercase;
-	letter-spacing: 0.8em;
+	letter-spacing: 0.6em;
 }
 
 h4 {
@@ -90,7 +90,7 @@ header {
 }
 
 .avatar-nery {
-	margin-top: 2em;
+	margin-top: 1.4em;
 }
 
 .avatar-nery img {
@@ -139,4 +139,16 @@ progress::-moz-progress-bar {
 	border: 0;
 	height: 2px;
 	border-radius: 2px;
+}
+
+.name-space-a {
+	margin: 20px 0 12px -15px;
+}
+
+.name-space-b {
+	margin-bottom: 16px;
+}
+
+.name-space-c {
+	margin-left: 2px;
 }

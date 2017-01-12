@@ -73,26 +73,45 @@ header {
 	margin: auto;
 }
 
-@media screen and (min-width: 992px){
+.resume {
+	display: none;
+}
+
+@media screen and (min-width: 768px){
+	.resume {
+		display: unset;
+	}
+}
+
+@media screen and (min-width: 768px){
 	.info-header {
-		height: 213px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-	.info-header h4 {
-		color: var(--white)
+		padding-top: 4em;
 	}
 }
 
 .avatar-nery {
+	margin-top: 2em;
+}
+
+.avatar-nery img {
 	width: 100%;
-	height: auto;
+	max-width: 332px;
+	height: 100%;
+	max-height: 332px;
 }
 
-@media screen and (min-width: 992px){
-.avatar-nery {
-	margin-top: -11em;
-	}
+@media screen and (min-width: 1000px){
+	.info-header h4, .info-header h1 {color: #FFFFFF}
 }
 
+@media screen and (min-width: 333px){
+	.avatar-nery {margin-top: 1em;}
+}	
+
+@media screen and (min-width: 350px){
+	.avatar-nery {margin-top: 0em;}
+}	
+
+@media screen and (min-width: 768px){
+	.avatar-nery img {margin-top: -6em;}
+}	

@@ -120,7 +120,7 @@ progress {
 	background-color: var(--light-grey);
 	border: 0;
 	height: 2px;
-	border-radius: 2px;
+	border-radius: 2px;	
 }
 progress::-webkit-progress-bar {
 	background-color: var(--light-grey);
@@ -151,4 +151,9 @@ progress::-moz-progress-bar {
 
 .name-space-c {
 	margin-left: 2px;
+}
+
+.name {
+	display: flex;
+	flex-direction: column;
 }

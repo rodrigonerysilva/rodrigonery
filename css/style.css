@@ -16,6 +16,10 @@
   color: var(--white);
 }
 
+.container-fluid {
+	max-width: 1200px;
+}
+
 h1 {
 	font-family: "ailerons", sans-serif;
 	color: var(--dark-blue);
@@ -119,26 +123,34 @@ header {
 progress {
 	background-color: var(--light-grey);
 	border: 0;
-	height: 2px;
+	height: 3px;
+	width: 180px;
 	border-radius: 2px;	
 }
 progress::-webkit-progress-bar {
 	background-color: var(--light-grey);
 	border: 0;
-	height: 2px;
+	height: 3px;
+	width: 180px;
 	border-radius: 2px;
 }
 progress::-webkit-progress-value {
 	background-color: var(--red);
 	border: 0;
-	height: 2px;
+	height: 3px;
+	width: 180px;
 	border-radius: 2px;
 }
 progress::-moz-progress-bar {
 	background-color: var(--light-grey);
 	border: 0;
-	height: 2px;
+	height: 3px;
+	width: 180px;
 	border-radius: 2px;
+}
+
+.habilidade-progress {
+	margin: 10px 0 14px 0;
 }
 
 .name-space-a {
@@ -154,6 +166,11 @@ progress::-moz-progress-bar {
 }
 
 .name {
+	display: flex;
+	flex-direction: column;
+}
+
+.contato-list {
 	display: flex;
 	flex-direction: column;
 }

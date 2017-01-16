@@ -1,199 +1,238 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<title>Rodrigo Nery - UI Designer</title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/flexboxgrid.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Dosis:400,600" rel="stylesheet">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
-		<div class="bg-header"></div>
-		<header class="container-fluid">
-			<div class="row center-xs between-sm info-header">
-				<div class="resume">
-					<h1>Resume</h1>
-				</div>
-				<div class="center-xs end-sm">
-					<h4>nerynocturnus@gmail.com</h4>
-					<h4>(11) 97481-7228</h4>
-				</div>
-			</div>
-			<div class="row center-xs avatar-nery">
-				<img src="img/avatar_nery.png">
-			</div>
-		</header>
-		<main class="container-fluid">
-			<div class="row center-xs name mobile-style">
-				<h1 class="name-space-a">Rodrigo Nery</h1>
-				<div>
-					<progress class="name-space-b" value="50" max="100"></progress>
-				</div>
-				<h3 class="name-space-c">UI Designer</h3>
-			</div>
-			<div class="row center-xs mobile-style">
-				<h2>_Sobre</h2>
-				<p><span class="p_bold">Com 6 anos de experiência, sou um webdesigner acostumado a entregar soluções de qualidade,</span> que atendam aos requerimentos do negócio e às expectativas do usuário.<br><br>
-				Trabalho em projetos sozinho e com equipe de desenvolvimento, onde contribuo além do design com minhas habilidades em <span class="p_bold">HTML5, CSS3, WordPress, Github, Bootstrap e motion graphics.</span><br><br>
-				Atualmente, desenho interfaces para sites responsivos e aplicações mobile. Me sinto muito confortável com o processo de design, desde a arquitetura da informação até uma entrega consistente para a equipe de desenvolvimento.</p>
-			</div>
-			<div class="mobile-style">
-				<h2 class="center-xs">_Habilidades</h2>
-				<ul class="row">
-					<div class="col-xs center-xs">
-						<li><h4>Sketch 3 / Photoshop</h4></li>
-						<progress class="habilidade-progress" value="100" max="100"></progress>
-						<li><h4>UI Design</h4></li>
-						<progress class="habilidade-progress" value="100" max="100"></progress>
-						<li><h4>HTML 5 / CSS 3</h4></li>
-						<progress class="habilidade-progress" value="80" max="100"></progress>
-						<li><h4>JavaScript</h4></li>
-						<progress class="habilidade-progress" value="20" max="100"></progress>
-						<li><h4>Motion Graphics</h4></li>
-						<progress class="habilidade-progress" value="60" max="100"></progress>
-					</div>
-					<div class="col-xs center-xs">
-						<li><h4>WordPress</h4></li>
-						<progress class="habilidade-progress" value="60" max="100"></progress>
-						<li><h4>Bootstrap</h4></li>
-						<progress class="habilidade-progress" value="100" max="100"></progress>
-						<li><h4>Agile Methods</h4></li>
-						<progress class="habilidade-progress" value="60" max="100"></progress>
-						<li><h4>Inglês</h4></li>
-						<progress class="habilidade-progress" value="100" max="100"></progress>
-						<li><h4>Trabalho em equipe</h4></li>
-						<progress class="habilidade-progress" value="100" max="100"></progress>
-					<div class="col-xs">
-				</ul>
-			</div>
-			<div class="center-xs mobile-style">
-				<h2>_Contato</h2>
-				<ul class="row contato-list">
-					<li>
-						<i class="fa fa-whatsapp"></i>
-						<p class="center-xs">(51) 99693.9336</p>
-					</li>
-					<li class="center-xs">
-						<i class="fa fa-envelope-o"></i>
-						<p class="center-xs">nerynocturnus@gmail.com</p>
-					</li>
-					<li>
-						<a href="http://facebook.com.br/rodrigonerysilva" target="blank">
-							<i class="fa fa-facebook-official"></i>
-							<p class="center-xs">fb.com/rodrigonerysilva</p>
-						</a>
-					</li>
-					<li>
-						<i class="fa fa-skype"></i>
-						<p class="center-xs">nerynocturnus</p>
-						<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-						<div id="SkypeButton_Call_nerynocturnus_1">
-							<script type="text/javascript">
-							Skype.ui({
-							"name": "call",
-							"element": "SkypeButton_Call_nerynocturnus_1",
-							"participants": ["nerynocturnus"]
-							});
-							</script>
-						</div>
-					</li>
-					<li>
-						<i class="fa fa-slack"></i>
-						<p class="center-xs">@nery</p>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/rodrigonery" target="blank">
-							<i class="fa fa-linkedin"></i>
-							<p class="center-xs">br.linkedin.com/in/rodrigonery</p>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.behance.net/nery_" target="blank">
-							<i class="fa fa-behance"></i>
-							<p class="center-xs">behance.net/nery_</p>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/rodrigonerysilva" target="blank">
-							<i class="fa fa-github"></i>
-							<p class="center-xs">github.com/rodrigonerysilva</p>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.google.com.uy/maps/place/Condom%C3%ADnio+Edif%C3%ADcio+Rocha+Par+-+R.+Rocha,+72+-+Bela+Vista,+S%C3%A3o+Paulo+-+SP,+Brazil/data=!4m2!3m1!1s0x94ce59b5bc174135:0x71a82990ee6a3726?sa=X&ved=0ahUKEwiLpuDr9pfRAhXGW5AKHSkTDHsQ8gEIFzAA" target="blank">
-						<i class="fa fa-map-marker"></i>
-						<p class="center-xs">Rua Rocha 72 apto 91<br>Bairro Bela vista<br>São Paulo/SP<br>CEP 01330-000</p>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="mobile-style">
-				<h2 class="center-xs start-sm">_Experiência</h2>
-				<div class="row">
-					<div class="col-sm-12 col-md-6 experiencia-bloco">
-						<div class="row">
-							<div class="center-xs col-xs-12 start-sm col-sm-8">
-								<h3>Webdesigner</h3>
-								<h4>Grau Design Digital</h4>
-							</div>
-							<div class="col-xs-12 col-sm-4">
-								<p class="center-xs end-sm date"><spam class="first-date">Mai 2014 /</spam><spam class="current-date">Atual</spam></p>
-							</div>
-						</div>
-						<p><spam class="p_bold">Atualmente, desenho interfaces para web, e-commerce, sistemas e mobile, alinhando às necessidades do negócio e dos usuários.</spam><br><br>Trabalho diretamente com o project owner, traduzindo suas necessidades, e também com a equipe de desenvolvedores, onde uso minhas habilidades em HTML5, CSS3 e JS para garantir a melhor experiência do usuário.</p>
-						</div>	
-					</div>
-					<div class="col-sm-12 col-md-6 experiencia-bloco">
-						<div class="row">
-							<div class="center-xs col-xs-12 start-sm col-sm-8">
-								<h3>Webdesigner</h3>
-								<h4>Capella Design</h4>
-							</div>
-							<div class="col-xs-12 col-sm-4">
-								<p class="center-xs end-sm date"><spam class="first-date">Jul 2013 /</spam><spam class="last-date">Mar 2014</spam></p>
-							</div>
-						</div>
-						<p>Trabalhando webdesigner, tive a oportunidade de ampliar meus conhecimentos e melhorar minhas habilidades em todas as etapas de um projeto digital, da concepção à entrega. Tive contato mais aprofundado com <spam class="p_bold">elaboração de benchmark, identidade visual, user flow e wireframes, design responsivo e WordPress.</spam><br><br>Também co-geria uma pequena equipe de <spam class="p_italic">social media</spam> onde facilitava o processo criativo, definia cronogramas e metas.</p>
-					</div>
-					<div class="col-sm-12 col-md-6 experiencia-bloco">
-						<div class="row">
-							<div class="center-xs col-xs-12 start-sm col-sm-8">
-								<h3>Sócio criativo</h3>
-								<h4>Pulga - Negócios Digitais</h4>
-							</div>
-							<div class="col-xs-12 col-sm-4">
-								<p class="center-xs end-sm date"><spam class="first-date">Mai 2010 /</spam><spam class="last-date">Fev 2013</spam></p>
-							</div>
-						</div>
-						<p>Logo cedo comecei a empreender, abrindo um estúdio digital que desenvolvia negócios autorais, assim como atendia às demandas do mercado. Ganhei muita experiência como webdesigner desenhando sites, hotsites e conteúdo para social media. Além disso, aprendi a gerir funcionários, finanças, prospectar e atender clientes, validar planos de negócios e apresentar resultados a investidores.<br><br>Neste período, as principais marcas que atendi foram: <spam class="p_bold">Royal, Supradyn, HSBC</spam> e a agência digital <spam class="p_bold">Casa.ag</spam>. Dos projetos autorais, destaca-se o Nakeit, Botãoteca e Saco Mágico.</p>
-					</div>
-					<div class="col-sm-12 col-md-6 experiencia-bloco">
-						<div class="row">
-							<div class="center-xs col-xs-12 start-sm col-sm-8">
-								<h3>Diretor de Arte</h3>
-								<h4>DCS Comunicação</h4>
-							</div>
-							<div class="col-xs-12 col-sm-4">
-								<p class="center-xs end-sm date"><spam class="first-date">Mai 2014 /</spam><spam class="last-date">Atual</spam></p>
-							</div>
-						</div>
-						<p>Este foi meu último e mais significativo trabalho como estagiário. Fui responsável pela criação e desdobramento de campanhas online para clientes como <spam class="p_bold">Banrisul, Azaléia e Olympikus.</spam><br><br>Aprendi bastante sobre webdesign, motion graphics, métricas, HTML e CSS.</p>
-					</div>
-				</div>
-			</div>
-		</main>
-		<footer>
-			<div class="container-fluid center-xs footer-content">
-				<p class="upper center-xs">Gostou deste design? Baixe o aquivo editável no meu Github</p>
-				<a href="https://github.com/rodrigonerysilva/rodrigonery" class="middle-xs center-xs">
-					<i class="fa fa-github"></i>
-					<p class="center-xs">github.com/rodrigonerysilva</p>
-				</a>
-			</div>
-		</footer>
-	</body>
-</html>
+:root{
+	--dark-blue: #002c40;
+	--red: #ef2345;
+	--space-green: #38ab9e;
+	--white: #FFFFFF;
+	--light-grey: #f1f1f1;
+	--dark-grey: #bdc3c7;
+}
+
+::selection {
+  background: var(--space-green); /* WebKit/Blink Browsers */
+  color: var(--white);
+}
+::-moz-selection {
+  background: var(--space-green); /* Gecko Browsers */
+  color: var(--white);
+}
+
+.container-fluid {
+	max-width: 1200px;
+}
+
+h1 {
+	font-family: "ailerons", sans-serif;
+	color: var(--dark-blue);
+	font-size: 3.8em;
+	letter-spacing: -0.2em;
+}
+
+h2 {
+	font-family: "ailerons", sans-serif;
+	font-size: 2.6em;
+	letter-spacing: -0.2em;
+	color: var(--red);
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-family: 'Dosis', sans-serif;
+	color: var(--dark-blue);
+	font-size: 1.3em;
+	text-transform: uppercase;
+	letter-spacing: 0.6em;
+}
+
+h4 {
+	font-family: 'Dosis', sans-serif;
+	color: var(--dark-blue);
+	font-weight: 600;
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+	line-height: 1.4em;
+}
+
+p {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1em;
+	color: var(--dark-blue);
+	line-height: 1.6em;
+	text-align: justify;
+	letter-spacing: 0.04em;
+}
+
+.p_bold {
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+}
+
+i {
+	color: var(--space-green);
+}
+
+.bg-header {
+	position: absolute;
+	background-color: #1e2142;
+	height: 213px;
+	width: 100%;
+	z-index: -1;
+}
+
+header {
+	background-image: url(../img/topo_espacial.jpg);
+	height: 380px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+.resume {
+	display: none;
+}
+
+@media screen and (min-width: 768px){
+	.resume {
+		display: unset;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.info-header {
+		padding-top: 4em;
+	}
+}
+
+.avatar-nery {
+	margin-top: 1.4em;
+}
+
+.avatar-nery img {
+	width: 100%;
+	max-width: 332px;
+	height: 100%;
+	max-height: 332px;
+}
+
+@media screen and (min-width: 1000px){
+	.info-header h4, .info-header h1 {color: #FFFFFF}
+}
+
+@media screen and (min-width: 333px){
+	.avatar-nery {margin-top: 1em;}
+}	
+
+@media screen and (min-width: 350px){
+	.avatar-nery {margin-top: 0em;}
+}	
+
+@media screen and (min-width: 768px){
+	.avatar-nery img {margin-top: -6em;}
+}
+
+progress {
+	background-color: var(--light-grey);
+	border: 0;
+	height: 3px;
+	width: 180px;
+	border-radius: 2px;	
+}
+progress::-webkit-progress-bar {
+	background-color: var(--light-grey);
+	border: 0;
+	height: 3px;
+	width: 180px;
+	border-radius: 2px;
+}
+progress::-webkit-progress-value {
+	background-color: var(--red);
+	border: 0;
+	height: 3px;
+	width: 180px;
+	border-radius: 2px;
+}
+progress::-moz-progress-bar {
+	background-color: var(--light-grey);
+	border: 0;
+	height: 3px;
+	width: 180px;
+	border-radius: 2px;
+}
+
+.experiencia-bloco {
+	margin-bottom: 40px;
+}
+
+.habilidade-progress {
+	margin: 10px 0 14px 0;
+}
+
+.name-space-a {
+	margin: 20px 0 12px -15px;
+}
+
+.name-space-b {
+	margin-bottom: 16px;
+}
+
+.name-space-c {
+	margin-left: 2px;
+}
+
+.name {
+	display: flex;
+	flex-direction: column;
+}
+
+.contato-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.date {
+	text-transform: uppercase;
+	margin: 10px 0 10px 0;
+}
+
+.first-date {
+	color: var(--dark-grey);
+}
+
+.current-date {
+	color: var(--red);
+}
+
+.last-date {
+	color: var(--dark-blue);
+	font-weight: 600;
+}
+
+.mobile-style {
+	padding-bottom: 4em;
+}
+
+footer {
+	background-image: url(../img/bg_nebula.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.footer-content {
+	padding: 40px;
+}
+
+footer p {
+	color: var(--white);
+}
+
+footer i {
+	color: var(--white)
+}
+
+.upper {
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}

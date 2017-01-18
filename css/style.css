@@ -129,7 +129,7 @@ header {
 }	
 
 @media screen and (min-width: 768px){
-	.avatar-nery img {margin-top: -6em;}
+	.avatar-nery img {margin-top: -5.3em;}
 }
 
 progress {
@@ -165,6 +165,11 @@ progress::-moz-progress-bar {
 	margin-bottom: 40px;
 }
 
+.experiencia-bloco h3,
+.experiencia-bloco h4 {
+	color: var(--space-green)
+}
+
 .habilidade-progress {
 	margin: 10px 0 14px 0;
 }
@@ -186,9 +191,14 @@ progress::-moz-progress-bar {
 	flex-direction: column;
 }
 
-.contato-list {
+@media screen and (min-width: 992px) {
+	.desktop-fix {margin-top: -20em;}
+}
+
+#SkypeButton_Call_nerynocturnus_1 {
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
+	margin-top: -14px;
 }
 
 .date {
@@ -202,6 +212,7 @@ progress::-moz-progress-bar {
 
 .current-date {
 	color: var(--red);
+	font-weight: 600;
 }
 
 .last-date {
@@ -235,4 +246,20 @@ footer i {
 .upper {
 	text-transform: uppercase;
 	margin-bottom: 1em;
+}
+
+.contato {
+	width: 100%;
+}
+
+.contato li {
+	margin-bottom: 0.8rem;
+}
+
+
+@media screen and (min-width: 992px) {
+	.contato li {display: flex;}
+	.contato li {align-items: center;}
+	.contato li a {display: flex;}
+	.contato i { margin-right: 10px;}
 }
